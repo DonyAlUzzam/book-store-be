@@ -8,7 +8,7 @@ const app = express();
 const port =  process.env.PORT || 8081;
 
 corsOptions = {
-    origin: "Your FrontEnd Website URL",
+    origin: "https://store-book-new.herokuapp.com",
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   };
 // Package
