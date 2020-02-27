@@ -13,7 +13,7 @@ corsOptions = {
   };
 // Package
 app.use("/uploads", express.static("uploads"));
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use(router);
