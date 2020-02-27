@@ -8,7 +8,8 @@ router.get("/roles", async (req, res, next) => {
         const listRole = await Role.find({}).select("_id role")
         res.status(200).json({
             success: true,
-            message: listRole
+            message: "get data success",
+            data: listRole
         })
     } catch (error) {
         console.log(error);
